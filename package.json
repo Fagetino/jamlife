@@ -69,6 +69,12 @@
     "cross-env": "^7.0.3",
     "electron": "^17.0.1",
     "electron-builder": "^22.14.13",
+    "git-cz": "4.8.0",
     "wait-on": "^6.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
   }
 }
